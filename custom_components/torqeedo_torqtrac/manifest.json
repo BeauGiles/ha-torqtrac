@@ -1,0 +1,17 @@
+{
+  "domain": "torqeedo_torqtrac",
+  "name": "Torqeedo TorqTrac",
+  "bluetooth": [
+    { "service_uuid": "746f7271-7472-6163-5f64-6973706c6179", "connectable": true },
+    { "local_name": "Torq*", "connectable": true }
+  ],
+  "codeowners": ["@BeauGiles"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/BeauGiles/ha-torqtrac",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/BeauGiles/ha-torqtrac/issues",
+  "requirements": ["bleak-retry-connector>=3.5.0"],
+  "version": "0.1.0"
+}
