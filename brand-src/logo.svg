@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 256" width="680" height="256">
+  <rect width="256" height="256" rx="56" fill="#0B3C5D"/>
+  <g transform="translate(122 128) scale(1.12) translate(-128 -128)">
+  <path d="M128 114C104 106 100 82 124 62C146 76 150 100 128 114Z" transform="rotate(0 128 128) translate(128 128) scale(.9) translate(-128 -128)" fill="#FFFFFF"/><path d="M128 114C104 106 100 82 124 62C146 76 150 100 128 114Z" transform="rotate(120 128 128) translate(128 128) scale(.9) translate(-128 -128)" fill="#FFFFFF"/><path d="M128 114C104 106 100 82 124 62C146 76 150 100 128 114Z" transform="rotate(240 128 128) translate(128 128) scale(.9) translate(-128 -128)" fill="#FFFFFF"/>
+  <circle cx="128" cy="128" r="15" fill="#2EC4B6"/><circle cx="128" cy="128" r="6" fill="#0B3C5D"/>
+  <path d="M184.2 96.5A64.7 64.7 0 0 1 184.2 159.5" fill="none" stroke="#2EC4B6" stroke-width="9" stroke-linecap="round"/>
+  <path d="M203.5 78.4A86.5 86.5 0 0 1 203.5 177.6" fill="none" stroke="#2EC4B6" stroke-width="9" stroke-linecap="round" opacity=".6"/>
+</g>
+  <text x="288" y="150" font-family="Helvetica, Arial, sans-serif" font-size="92" font-weight="700" fill="#0B3C5D">TorqTrac</text>
+</svg>

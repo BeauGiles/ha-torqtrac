@@ -97,16 +97,42 @@ Derived from the Android app's `BluetoothLeService`, `TorqeedoBusMessage` and `C
   24-25 range (/10 nm); 26-27 range (minutes). 16-bit values are big-endian.
 - The app only listens; it never writes to the motor. This integration is read-only too.
 
-### Error codes (from the app's strings)
-02 motor overheated, 03/04 motor tipped, 05 motor/propeller blocked, 06 low voltage,
-07 motor overcurrent, 08 circuitry overheated, 21 tiller/throttle calibration,
-22 magnetic sensor, 23 throttle alignment, 30 motor comms, 32 tiller comms,
-33 general comms, 41/42 incorrect charging voltage, 43 battery empty,
-45 battery overcurrent, 46 temperature, 48 charging temperature, 70 charging error,
-71 battery temperature, 72 battery circuitry overheated, 73 battery overcurrent,
-74 charging error, 75 pyro-fuse blown, 76 low voltage, 77 charging voltage too high,
-78 over-charged, 79 battery electronics, 80 deep discharge, 81 water sensor,
-82 charge imbalance.
+### Error codes
+
+From the official app's error messages. The **Error code** sensor shows the number; **Fault** turns on for any non-zero code.
+
+| Code | Meaning |
+|---:|---|
+| 02 | Motor overheated |
+| 03 / 04 | Motor tipped during operation |
+| 05 | Motor or propeller blocked |
+| 06 | Low voltage |
+| 07 | Motor overcurrent |
+| 08 | Circuitry overheated |
+| 21 | Incorrect tiller or remote throttle calibration |
+| 22 | Magnetic sensor error |
+| 23 | Throttle out of alignment |
+| 30 | Motor communication error |
+| 32 | Tiller or remote throttle communication error |
+| 33 | General communication error |
+| 41 / 42 | Incorrect charging voltage |
+| 43 | Battery empty |
+| 45 | Battery overcurrent |
+| 46 | Temperature error |
+| 48 | Charging temperature error |
+| 70 | Battery charging error |
+| 71 | Battery temperature error |
+| 72 | Battery circuitry overheated |
+| 73 | Battery overcurrent |
+| 74 | Charging error |
+| 75 | Pyro-fuse blown |
+| 76 | Low voltage |
+| 77 | Voltage too high during charging |
+| 78 | Battery over-charged |
+| 79 | Electronic battery malfunction |
+| 80 | Deep discharge |
+| 81 | Water sensor deployed |
+| 82 | Battery charge imbalance |
 
 ## Development
 
